@@ -167,6 +167,7 @@ def main():
                         alpha2 = box.value
             if flag:
                 x1_temp, y1_temp, x2_temp, y2_temp = count(int(M1), int(M2), int(L1), int(L2), int(alpha1), int(alpha2))
+                index = 0
                 x1 = [(zero_point_x + x * 100) for x in x1_temp]
                 y1 = [(zero_point_y - y * 100) for y in y1_temp]
                 x2 = [(zero_point_x + x * 100) for x in x2_temp]
